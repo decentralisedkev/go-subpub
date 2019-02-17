@@ -25,6 +25,7 @@ func main() {
 	pub := Publisher{
 		subs: make(map[int]subpub.Subscriber),
 	}
+    // Subscribe to publisher
 	pub.Subscribe(subA)
 	pub.Subscribe(subB)
 	pub.Subscribe(subC)
